@@ -1,3 +1,0 @@
-﻿  proga2.cpp
-C:\Users\lxve_every1\source\repos\proga2\proga2\proga2.cpp(118,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
-  proga2.vcxproj -> C:\Users\lxve_every1\source\repos\proga2\Debug\proga2.exe

@@ -1,7 +1,0 @@
-﻿  [NM] 3.4.cpp
-C:\Users\lxve_every1\source\repos\[NM] 3.4\[NM] 3.4\[NM] 3.4.cpp(21,5): warning C4305: инициализация: усечение из "double" в "float"
-C:\Users\lxve_every1\source\repos\[NM] 3.4\[NM] 3.4\[NM] 3.4.cpp(24,67): warning C4305: инициализация: усечение из "double" в "float"
-C:\Users\lxve_every1\source\repos\[NM] 3.4\[NM] 3.4\[NM] 3.4.cpp(36,34): warning C4244: +=: преобразование "double" в "float", возможна потеря данных
-C:\Users\lxve_every1\source\repos\[NM] 3.4\[NM] 3.4\[NM] 3.4.cpp(48,33): warning C4244: +=: преобразование "double" в "float", возможна потеря данных
-C:\Users\lxve_every1\source\repos\[NM] 3.4\[NM] 3.4\[NM] 3.4.cpp(25,15): warning C4101: k: неиспользованная локальная переменная
-  [NM] 3.4.vcxproj -> C:\Users\lxve_every1\source\repos\[NM] 3.4\Debug\[NM] 3.4.exe

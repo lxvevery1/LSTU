@@ -1,5 +1,0 @@
-﻿  main.cpp
-C:\Users\lxve_every1\source\repos\proga4testttt\proga4testttt\main.cpp(243,21): warning C4018: <: несоответствие типов со знаком и без знака
-C:\Users\lxve_every1\source\repos\proga4testttt\proga4testttt\main.cpp(263,21): warning C4018: <: несоответствие типов со знаком и без знака
-C:\Users\lxve_every1\source\repos\proga4testttt\proga4testttt\main.cpp(291,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
-  proga4testttt.vcxproj -> C:\Users\lxve_every1\source\repos\proga4testttt\Debug\proga4testttt.exe

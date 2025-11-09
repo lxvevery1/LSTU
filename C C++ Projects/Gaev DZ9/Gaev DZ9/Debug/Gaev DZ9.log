@@ -1,5 +1,0 @@
-﻿  Gaev DZ9.cpp
-C:\Users\lxve_every1\source\repos\Gaev DZ9\Gaev DZ9\Gaev DZ9.cpp(39,15): warning C4244: return: преобразование "double" в "int", возможна потеря данных
-C:\Users\lxve_every1\source\repos\Gaev DZ9\Gaev DZ9\Gaev DZ9.cpp(43,12): warning C4101: j: неиспользованная локальная переменная
-C:\Users\lxve_every1\source\repos\Gaev DZ9\Gaev DZ9\Gaev DZ9.cpp(43,9): warning C4101: i: неиспользованная локальная переменная
-  Gaev DZ9.vcxproj -> C:\Users\lxve_every1\source\repos\Gaev DZ9\Debug\Gaev DZ9.exe

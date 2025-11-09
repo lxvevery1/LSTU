@@ -1,9 +1,0 @@
-﻿  [NM] 2.cpp
-C:\Users\lxve_every1\source\repos\[NM] 2\[NM] 2\[NM] 2.cpp(16,35): warning C4244: +=: преобразование "double" в "float", возможна потеря данных
-C:\Users\lxve_every1\source\repos\[NM] 2\[NM] 2\[NM] 2.cpp(29,35): warning C4244: +=: преобразование "double" в "float", возможна потеря данных
-C:\Users\lxve_every1\source\repos\[NM] 2\[NM] 2\[NM] 2.cpp(114,32): warning C4244: +=: преобразование "long double" в "float", возможна потеря данных
-C:\Users\lxve_every1\source\repos\[NM] 2\[NM] 2\[NM] 2.cpp(121,34): warning C4244: +=: преобразование "long double" в "float", возможна потеря данных
-C:\Users\lxve_every1\source\repos\[NM] 2\[NM] 2\[NM] 2.cpp(145,31): warning C4244: +=: преобразование "double" в "float", возможна потеря данных
-C:\Users\lxve_every1\source\repos\[NM] 2\[NM] 2\[NM] 2.cpp(91,9): warning C4101: k: неиспользованная локальная переменная
-  LINK : не найден или не выполнена сборка C:\Users\lxve_every1\source\repos\[NM] 6\Debug\[NM] 2.exe при последней инкрементной компоновке; выполняется полная компоновка
-  [NM] 2.vcxproj -> C:\Users\lxve_every1\source\repos\[NM] 6\Debug\[NM] 2.exe

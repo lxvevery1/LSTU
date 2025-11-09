@@ -1,8 +1,0 @@
-﻿  1. Euler method.cpp
-C:\Users\lxve_every1\source\repos\1. Adams-Bashfort 4th order\1. Euler method\1. Euler method.cpp(18,16): warning C4244: =: преобразование "double" в "int", возможна потеря данных
-C:\Users\lxve_every1\source\repos\1. Adams-Bashfort 4th order\1. Euler method\1. Euler method.cpp(11,32): warning C4101: k2: неиспользованная локальная переменная
-C:\Users\lxve_every1\source\repos\1. Adams-Bashfort 4th order\1. Euler method\1. Euler method.cpp(11,40): warning C4101: k4: неиспользованная локальная переменная
-C:\Users\lxve_every1\source\repos\1. Adams-Bashfort 4th order\1. Euler method\1. Euler method.cpp(11,28): warning C4101: k1: неиспользованная локальная переменная
-C:\Users\lxve_every1\source\repos\1. Adams-Bashfort 4th order\1. Euler method\1. Euler method.cpp(11,36): warning C4101: k3: неиспользованная локальная переменная
-C:\Users\lxve_every1\source\repos\1. Adams-Bashfort 4th order\1. Euler method\1. Euler method.cpp(11,52): warning C4101: r: неиспользованная локальная переменная
-  1. Euler method.vcxproj -> C:\Users\lxve_every1\source\repos\1. Adams-Bashfort 4th order\Debug\1. Euler method.exe

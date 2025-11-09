@@ -1,5 +1,0 @@
-﻿  tech 4.4.cpp
-C:\Users\lxve_every1\source\repos\tech 4.4\tech 4.4\tech 4.4.cpp(252,11): warning C4101: level: неиспользованная локальная переменная
-C:\Users\lxve_every1\source\repos\tech 4.4\tech 4.4\tech 4.4.cpp(252,18): warning C4101: id: неиспользованная локальная переменная
-C:\Users\lxve_every1\source\repos\tech 4.4\tech 4.4\tech 4.4.cpp(239): warning C4715: rightSiblingNode: значение возвращается не при всех путях выполнения
-  tech 4.4.vcxproj -> C:\Users\lxve_every1\source\repos\tech 4.4\Debug\tech 4.4.exe

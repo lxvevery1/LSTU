@@ -1,6 +1,0 @@
-﻿  ChessBoardEditor.cpp
-C:\Users\lxve_every1\source\repos\CppCLR_ChessGame\CppCLR_ChessGame\ChessBoardEditor.cpp(13,5): error C2653: ChessGame: не является именем класса или пространства имен
-C:\Users\lxve_every1\source\repos\CppCLR_ChessGame\CppCLR_ChessGame\ChessBoardEditor.cpp(13,16): error C2065: ChessBoardEditor: необъявленный идентификатор
-C:\Users\lxve_every1\source\repos\CppCLR_ChessGame\CppCLR_ChessGame\ChessBoardEditor.cpp(13,33): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "form"
-C:\Users\lxve_every1\source\repos\CppCLR_ChessGame\CppCLR_ChessGame\ChessBoardEditor.cpp(13,33): error C2065: form: необъявленный идентификатор
-C:\Users\lxve_every1\source\repos\CppCLR_ChessGame\CppCLR_ChessGame\ChessBoardEditor.cpp(14,24): error C2065: form: необъявленный идентификатор

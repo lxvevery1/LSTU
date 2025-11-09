@@ -1,5 +1,0 @@
-﻿  [NM] 4.cpp
-C:\Users\lxve_every1\source\repos\[NM] 4\[NM] 4\[NM] 4.cpp(37,9): warning C4068: неизвестная прагма "Solution"
-C:\Users\lxve_every1\source\repos\[NM] 4\[NM] 4\[NM] 4.cpp(38,9): warning C4068: неизвестная прагма "Thomas"
-  LINK : не найден или не выполнена сборка C:\Users\lxve_every1\source\repos\[NM] 6\Debug\[NM] 4.exe при последней инкрементной компоновке; выполняется полная компоновка
-  [NM] 4.vcxproj -> C:\Users\lxve_every1\source\repos\[NM] 6\Debug\[NM] 4.exe

@@ -1,4 +1,0 @@
-﻿  Tech proga LR5.cpp
-C:\Users\lxve_every1\source\repos\Tech proga LR5\Tech proga LR5\Tech proga LR5.cpp(49,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
-C:\Users\lxve_every1\source\repos\Tech proga LR5\Tech proga LR5\Tech proga LR5.cpp(58,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
-  Tech proga LR5.vcxproj -> C:\Users\lxve_every1\source\repos\Tech proga LR5\Debug\Tech proga LR5.exe

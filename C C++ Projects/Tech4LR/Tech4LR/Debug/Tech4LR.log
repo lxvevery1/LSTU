@@ -1,8 +1,0 @@
-﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(513,5): warning MSB8028: промежуточный каталог (Debug\) содержит файлы, которые используются совместно с другим проектом (Tech4LR.vcxproj).  Это может привести к ошибкам очистки и перестроения.
-  Tech4LR.cpp
-C:\Users\lxve_every1\source\repos\Tech4LR\Tech4LR\Tech4LR.cpp(185,34): warning C4018: >: несоответствие типов со знаком и без знака
-C:\Users\lxve_every1\source\repos\Tech4LR\Tech4LR\Tech4LR.cpp(403,68): warning C4305: инициализация: усечение из "double" в "float"
-C:\Users\lxve_every1\source\repos\Tech4LR\Tech4LR\Tech4LR.cpp(408,81): warning C4305: инициализация: усечение из "double" в "float"
-C:\Users\lxve_every1\source\repos\Tech4LR\Tech4LR\Tech4LR.cpp(415,58): warning C4305: инициализация: усечение из "double" в "float"
-C:\Users\lxve_every1\source\repos\Tech4LR\Tech4LR\Tech4LR.cpp(426,7): warning C4101: P: неиспользованная локальная переменная
-  Tech4LR.vcxproj -> C:\Users\lxve_every1\source\repos\Tech4LR\Debug\Tech3LR.exe

@@ -1,6 +1,0 @@
-﻿  proga4.cpp
-C:\Users\lxve_every1\source\repos\proga4\proga4\proga4.cpp(171,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
-C:\Users\lxve_every1\source\repos\proga4\proga4\proga4.cpp(163,26): error C2039: "rand_val": не является членом "Dekart".
-C:\Users\lxve_every1\source\repos\proga4\proga4\proga4.cpp(108): message : см. объявление "Dekart"
-C:\Users\lxve_every1\source\repos\proga4\proga4\proga4.cpp(177): message : выполняется компиляция ссылки на экземпляр шаблон функции "void Input<Dekart>(Matrix<Dekart> &)"
-C:\Users\lxve_every1\source\repos\proga4\proga4\proga4.cpp(163,1): error C3861: rand_val: идентификатор не найден

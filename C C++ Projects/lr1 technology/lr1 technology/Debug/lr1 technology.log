@@ -1,7 +1,0 @@
-﻿  lr1 technology.cpp
-C:\Users\lxve_every1\source\repos\lr1 technology\lr1 technology\lr1 technology.cpp(26,9): error C2065: cout: необъявленный идентификатор
-C:\Users\lxve_every1\source\repos\lr1 technology\lr1 technology\lr1 technology.cpp(26,65): error C2059: синтаксическая ошибка: )
-C:\Users\lxve_every1\source\repos\lr1 technology\lr1 technology\lr1 technology.cpp(38,5): error C2065: cout: необъявленный идентификатор
-C:\Users\lxve_every1\source\repos\lr1 technology\lr1 technology\lr1 technology.cpp(45,73): warning C4474: "sprintf_s" : для строки формата передано слишком много аргументов
-C:\Users\lxve_every1\source\repos\lr1 technology\lr1 technology\lr1 technology.cpp(45,73): message : заполнители и их параметры ожидают переменное число аргументов в количестве 0, но было предоставлено 2
-C:\Users\lxve_every1\source\repos\lr1 technology\lr1 technology\lr1 technology.cpp(57,5): error C2065: cout: необъявленный идентификатор

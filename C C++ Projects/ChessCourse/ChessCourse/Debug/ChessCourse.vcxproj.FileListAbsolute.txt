@@ -1,5 +1,0 @@
-C:\Users\lxve_every1\source\repos\ChessCourse\Debug\Ijwhost.dll
-C:\Users\lxve_every1\source\repos\ChessCourse\Debug\ChessCourse.deps.json
-C:\Users\lxve_every1\source\repos\ChessCourse\Debug\ChessCourse.runtimeconfig.json
-C:\Users\lxve_every1\source\repos\ChessCourse\ChessCourse\Debug\ChessCourse.vcxproj.AssemblyReference.cache
-C:\Users\lxve_every1\source\repos\ChessCourse\ChessCourse\Debug\ChessCourse.genruntimeconfig.cache

@@ -1,7 +1,0 @@
-﻿  pch.cpp
-  AssemblyInfo.cpp
-  ClassLibrary1.cpp
-  Создание кода...
-  .NETCoreApp,Version=v5.0.AssemblyAttributes.cpp
-  AssemblyInfo.obj : обнаружен модуль MSIL; для MSIL последовательная компоновка отключена; выполняется полная компоновка
-  ClassLibrary1.vcxproj -> C:\Users\lxve_every1\source\repos\ClassLibrary1\Debug\ClassLibrary1.dll

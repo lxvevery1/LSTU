@@ -1,4 +1,0 @@
-﻿  lera.cpp
-C:\Users\lxve_every1\source\repos\lera\lera\lera.cpp(143,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
-C:\Users\lxve_every1\source\repos\lera\lera\lera.cpp(161,20): warning C4018: <: несоответствие типов со знаком и без знака
-  lera.vcxproj -> C:\Users\lxve_every1\source\repos\lera\Debug\lera.exe

@@ -1,5 +1,0 @@
-﻿  Adams-Moulton method 4th order.cpp
-C:\Users\lxve_every1\source\repos\1. Adams-Bashfort 4th order\Adams-Moulton method 4th order\Adams-Moulton method 4th order.cpp(17,16): warning C4244: =: преобразование "double" в "int", возможна потеря данных
-C:\Users\lxve_every1\source\repos\1. Adams-Bashfort 4th order\Adams-Moulton method 4th order\Adams-Moulton method 4th order.cpp(10,48): warning C4101: k: неиспользованная локальная переменная
-C:\Users\lxve_every1\source\repos\1. Adams-Bashfort 4th order\Adams-Moulton method 4th order\Adams-Moulton method 4th order.cpp(10,44): warning C4101: k5: неиспользованная локальная переменная
-  Adams-Moulton method 4th order.vcxproj -> C:\Users\lxve_every1\source\repos\1. Adams-Bashfort 4th order\Debug\Adams-Moulton method 4th order.exe

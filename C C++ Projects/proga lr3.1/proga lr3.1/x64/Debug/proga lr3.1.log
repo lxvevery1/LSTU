@@ -1,4 +1,0 @@
-﻿  proga lr3.1.cpp
-C:\Users\lxve_every1\source\repos\proga lr3.1\proga lr3.1\proga lr3.1.cpp(456,37): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
-C:\Users\lxve_every1\source\repos\proga lr3.1\proga lr3.1\proga lr3.1.cpp(198): warning C4715: SearchString: значение возвращается не при всех путях выполнения
-  proga lr3.1.vcxproj -> C:\Users\lxve_every1\source\repos\proga lr3.1\x64\Debug\proga lr3.1.exe

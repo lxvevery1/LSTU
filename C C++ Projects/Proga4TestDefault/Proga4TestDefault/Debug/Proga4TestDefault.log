@@ -1,3 +1,0 @@
-﻿  Source.cpp
-C:\Users\lxve_every1\source\repos\Proga4TestDefault\Proga4TestDefault\Source.cpp(143,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
-  Proga4TestDefault.vcxproj -> C:\Users\lxve_every1\source\repos\Proga4TestDefault\Debug\Proga4TestDefault.exe

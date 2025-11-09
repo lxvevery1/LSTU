@@ -1,5 +1,0 @@
-﻿  system of DE Runge-Kutta 5th order.cpp
-C:\Users\lxve_every1\source\repos\System of DU IDZ 4.2.2\system of DE Runge-Kutta 5th order\system of DE Runge-Kutta 5th order.cpp(11,29): warning C4101: k: неиспользованная локальная переменная
-C:\Users\lxve_every1\source\repos\System of DU IDZ 4.2.2\system of DE Runge-Kutta 5th order\system of DE Runge-Kutta 5th order.cpp(23,29): warning C4101: k: неиспользованная локальная переменная
-C:\Users\lxve_every1\source\repos\System of DU IDZ 4.2.2\system of DE Runge-Kutta 5th order\system of DE Runge-Kutta 5th order.cpp(45,16): warning C4244: =: преобразование "double" в "int", возможна потеря данных
-  system of DE Runge-Kutta 5th order.vcxproj -> C:\Users\lxve_every1\source\repos\System of DU IDZ 4.2.2\Debug\system of DE Runge-Kutta 5th order.exe

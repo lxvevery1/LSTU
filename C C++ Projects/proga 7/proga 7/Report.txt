@@ -1,4 +1,0 @@
-Event report
-Vehicle in garage# 1 added. Total in the garage 1 vehicles
-Vehicle in garage# 1 added. Total in the garage 2 vehicles
-Vehicle in garage# 1 edited

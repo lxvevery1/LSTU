@@ -1,4 +1,0 @@
-﻿  [NM] 3.5.cpp
-C:\Users\lxve_every1\source\repos\[NM] 3.5\[NM] 3.5\[NM] 3.5.cpp(25,2): warning C4305: инициализация: усечение из "double" в "float"
-C:\Users\lxve_every1\source\repos\[NM] 3.5\[NM] 3.5\[NM] 3.5.cpp(30,16): warning C4305: =: усечение из "double" в "float"
-  [NM] 3.5.vcxproj -> C:\Users\lxve_every1\source\repos\[NM] 3.5\Debug\[NM] 3.5.exe

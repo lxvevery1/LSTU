@@ -1,5 +1,0 @@
-C:\Users\lxve_every1\source\repos\Proga4TestTest\Proga4TestTest\obj\Debug\netcoreapp3.1\Proga4TestTest.csproj.AssemblyReference.cache
-C:\Users\lxve_every1\source\repos\Proga4TestTest\Proga4TestTest\obj\Debug\netcoreapp3.1\Proga4TestTest.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\lxve_every1\source\repos\Proga4TestTest\Proga4TestTest\obj\Debug\netcoreapp3.1\Proga4TestTest.AssemblyInfoInputs.cache
-C:\Users\lxve_every1\source\repos\Proga4TestTest\Proga4TestTest\obj\Debug\netcoreapp3.1\Proga4TestTest.AssemblyInfo.cs
-C:\Users\lxve_every1\source\repos\Proga4TestTest\Proga4TestTest\obj\Debug\netcoreapp3.1\Proga4TestTest.csproj.CoreCompileInputs.cache

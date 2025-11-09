@@ -1,9 +1,0 @@
-﻿  system of DE Runge-Kutta 5th order.cpp
-C:\Users\lxve_every1\source\repos\3. System of DE IDZ 4.2.3\system of DE Runge-Kutta 5th order\system of DE Runge-Kutta 5th order.cpp(11,1): warning C4005: f1: изменение макроопределения
-C:\Users\lxve_every1\source\repos\3. System of DE IDZ 4.2.3\system of DE Runge-Kutta 5th order\system of DE Runge-Kutta 5th order.cpp(7): message : см. предыдущее определение "f1"
-C:\Users\lxve_every1\source\repos\3. System of DE IDZ 4.2.3\system of DE Runge-Kutta 5th order\system of DE Runge-Kutta 5th order.cpp(12,1): warning C4005: f2: изменение макроопределения
-C:\Users\lxve_every1\source\repos\3. System of DE IDZ 4.2.3\system of DE Runge-Kutta 5th order\system of DE Runge-Kutta 5th order.cpp(8): message : см. предыдущее определение "f2"
-C:\Users\lxve_every1\source\repos\3. System of DE IDZ 4.2.3\system of DE Runge-Kutta 5th order\system of DE Runge-Kutta 5th order.cpp(13,1): warning C4005: f3: изменение макроопределения
-C:\Users\lxve_every1\source\repos\3. System of DE IDZ 4.2.3\system of DE Runge-Kutta 5th order\system of DE Runge-Kutta 5th order.cpp(9): message : см. предыдущее определение "f3"
-C:\Users\lxve_every1\source\repos\3. System of DE IDZ 4.2.3\system of DE Runge-Kutta 5th order\system of DE Runge-Kutta 5th order.cpp(71,16): warning C4244: =: преобразование "double" в "int", возможна потеря данных
-  system of DE Runge-Kutta 5th order.vcxproj -> C:\Users\lxve_every1\source\repos\3. System of DE IDZ 4.2.3\Debug\system of DE Runge-Kutta 5th order.exe

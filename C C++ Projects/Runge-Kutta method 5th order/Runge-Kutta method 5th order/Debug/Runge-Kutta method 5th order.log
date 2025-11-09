@@ -1,4 +1,0 @@
-﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(513,5): warning MSB8028: промежуточный каталог (Debug\) содержит файлы, которые используются совместно с другим проектом (Runge-Kutta method 5th order.vcxproj).  Это может привести к ошибкам очистки и перестроения.
-  Runge-Kutta method 5th order.cpp
-C:\Users\lxve_every1\source\repos\Runge-Kutta method 5th order\Runge-Kutta method 5th order\Runge-Kutta method 5th order.cpp(17,16): warning C4244: =: преобразование "double" в "int", возможна потеря данных
-  Runge-Kutta method 5th order.vcxproj -> C:\Users\lxve_every1\source\repos\1. Adams-Bashfort 4th order\Debug\1. Runge-Kutta method 5th order.exe
