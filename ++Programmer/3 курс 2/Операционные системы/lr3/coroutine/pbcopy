@@ -1,0 +1,120 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+#define MAX_FILES 3  // Максимальное количество файлов для сортировки
+#define MAX_NUMBERS 1000  // Максимальное количество чисел в каждом файле
+#define INPUT_FILE_NAME1 "file1.txt"
+#define INPUT_FILE_NAME2 "file2.txt"
+#define INPUT_FILE_NAME3 "file3.txt"
+#define OUTPUT_FILE_NAME "output.txt"
+
+const char *inputFiles[MAX_FILES] = { INPUT_FILE_NAME1, INPUT_FILE_NAME2, INPUT_FILE_NAME3 };
+
+// Функция для слияния двух отсортированных массивов в один отсортированный массив
+void merge(int arr[], int l, int m, int r) {
+    int i, j, k;
+    int n1 = m - l + 1;
+    int n2 = r - m;
+
+    int L[n1], R[n2];
+
+    // Копируем данные во временные массивы L[] и R[]
+    for (i = 0; i < n1; i++)
+        L[i] = arr[l + i];
+    for (j = 0; j < n2; j++)
+        R[j] = arr[m + 1 + j];
+
+    // Слияние временных массивов обратно в arr[l..r]
+    i = 0;
+    j = 0;
+    k = l;
+    while (i < n1 && j < n2) {
+        if (L[i] <= R[j]) {
+            arr[k] = L[i];
+            i++;
+        } else {
+            arr[k] = R[j];
+            j++;
+        }
+        k++;
+    }
+
+    // Копируем оставшиеся элементы L[]
+    while (i < n1) {
+        arr[k] = L[i];
+        i++;
+        k++;
+    }
+
+    // Копируем оставшиеся элементы R[]
+    while (j < n2) {
+        arr[k] = R[j];
+        j++;
+        k++;
+    }
+}
+
+// Функция для рекурсивной сортировки массива слиянием
+void mergeSort(int arr[], int l, int r) {
+    if (l < r) {
+        // Находим среднюю точку
+        int m = l + (r - l) / 2;
+
+        // Рекурсивно сортируем первую и вторую половины
+        mergeSort(arr, l, m);
+        mergeSort(arr, m + 1, r);
+
+        // Сливаем отсортированные половины
+        merge(arr, l, m, r);
+    }
+}
+
+int main() {
+    // char *files[MAX_FILES] = {"file1.txt", "file2.txt", "file3.txt"};
+ 
+    int totalNumbers = 0;
+    int *allNumbers = (int *)malloc(MAX_NUMBERS * MAX_FILES * sizeof(int)); // Выделение памяти для объединенного массива чисел
+    for (int i = 0; i < MAX_FILES-1; i++) {
+        FILE *file = fopen(inputFiles[i], "r");
+        if (file == NULL) {
+            perror("Ошибка открытия файла");
+            return EXIT_FAILURE;
+        }
+
+        int count = 0;
+        while (fscanf(file, "%d", &allNumbers[totalNumbers]) == 1) {
+            count++;
+            totalNumbers++;
+        }
+        fclose(file);
+
+        // Сортировка чисел в каждом файле
+        mergeSort(&allNumbers[totalNumbers - count], 0, count - 1);
+    }
+
+    // Сортировка всех чисел в массиве all_numbers
+    mergeSort(allNumbers, 0, totalNumbers - 1);
+
+    // Открытие файла для записи отсортированных чисел
+    FILE *fileOut = fopen(OUTPUT_FILE_NAME, "w");
+    if (fileOut == NULL) {
+        perror("Ошибка открытия файла,%s" OUTPUT_FILE_NAME);
+        free(allNumbers);
+        return EXIT_FAILURE;
+    }
+
+    // Запись отсортированных чисел в файл
+    for (int i = 0; i < totalNumbers; i++) {
+        fprintf(fileOut, "%d\n", allNumbers[i]);
+    }
+    fclose(fileOut);
+
+    // Освобождение памяти
+    free(allNumbers);
+
+    printf("Сортировка завершена. Результат записан в файл %s", OUTPUT_FILE_NAME);
+    printf("\n");
+    return EXIT_SUCCESS;
+}
+

@@ -1,4 +1,9 @@
 {
   "accentColor": "",
-  "baseFontSize": 20
+  "baseFontSize": 20,
+  "cssTheme": "Everforest",
+  "theme": "obsidian",
+  "textFontFamily": "Noto Sans,Agave Nerd Font",
+  "interfaceFontFamily": "Agave Nerd Font Propo",
+  "monospaceFontFamily": "Agave Nerd Font Mono"
 }

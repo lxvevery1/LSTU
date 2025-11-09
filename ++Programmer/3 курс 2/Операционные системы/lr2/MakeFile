@@ -1,0 +1,30 @@
+# Compiler
+CXX = g++
+
+# Compiler flags
+CXXFLAGS = -std=c++11 -Wall
+
+# Object files
+OBJS = MusicPlayer.o MusicList.o
+
+# Target executable
+TARGET = MusicPlayer
+
+# Default target
+all: $(TARGET)
+
+# Link object files to create the executable
+$(TARGET): $(OBJS)
+	$(CXX) $(OBJS) -o $(TARGET)
+
+# Compile MusicPlayer.cpp to MusicPlayer.o
+MusicPlayer.o: MusicPlayer.cpp MusicList.h
+	$(CXX) $(CXXFLAGS) -c MusicPlayer.cpp
+
+# Compile MusicList.cpp to MusicList.o
+MusicList.o: MusicList.cpp MusicList.h
+	$(CXX) $(CXXFLAGS) -c MusicList.cpp
+
+# Clean up
+clean:
+	rm -f $(OBJS) $(TARGET)
