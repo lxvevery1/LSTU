@@ -1,0 +1,73 @@
+/*
+MedTools PostgreSQL Database 2025
+*/
+
+CREATE TABLE Administrator (
+    ID SERIAL PRIMARY KEY,
+    FirstName TEXT NOT NULL,
+    LastName TEXT NOT NULL,
+    Email TEXT UNIQUE NOT NULL
+);
+
+CREATE TABLE Manager (
+    ID SERIAL PRIMARY KEY,
+    FirstName TEXT NOT NULL,
+    LastName TEXT NOT NULL,
+    Email TEXT UNIQUE NOT NULL
+);
+
+CREATE TABLE Storage (
+    ID SERIAL PRIMARY KEY,
+    Name TEXT NOT NULL,
+    Address TEXT NOT NULL
+);
+
+CREATE TABLE MedKit (
+    ID SERIAL PRIMARY KEY,
+    Number TEXT UNIQUE NOT NULL,
+    Name TEXT NOT NULL,
+    Status TEXT NOT NULL,
+    StorageLocation TEXT NOT NULL,
+    Storage_ID INT REFERENCES Storage(ID) ON DELETE SET NULL,
+    Manager_ID INT REFERENCES Manager(ID) ON DELETE SET NULL,
+    TransferDate DATE,
+    DaysInStorage INT,
+    Comments TEXT,
+    Department TEXT
+);
+
+CREATE TABLE TransferLog (
+    ID SERIAL PRIMARY KEY,
+    Date DATE NOT NULL,
+    FromLocation TEXT NOT NULL,
+    ToLocation TEXT NOT NULL,
+    Comment TEXT,
+    MedKit_ID INT REFERENCES MedKit(ID) ON DELETE CASCADE
+);
+
+CREATE TABLE Photo (
+    ID SERIAL PRIMARY KEY,
+    Name TEXT NOT NULL,
+    Path TEXT NOT NULL
+);
+
+CREATE TABLE Act (
+    ID SERIAL PRIMARY KEY,
+    Article TEXT NOT NULL,
+    Name TEXT NOT NULL,
+    Count INT NOT NULL
+);
+
+CREATE TABLE MedKitContent (
+    ID SERIAL PRIMARY KEY,
+    MedKit_ID INT NOT NULL REFERENCES MedKit(ID) ON DELETE CASCADE,
+    Act_ID INT REFERENCES Act(ID) ON DELETE CASCADE,
+    Photo_ID INT REFERENCES Photo(ID) ON DELETE CASCADE
+);
+
+CREATE TABLE Request (
+    ID SERIAL PRIMARY KEY,
+    MedKitNumber INT REFERENCES MedKit(ID) ON DELETE CASCADE,
+    OrderStatus TEXT NOT NULL,
+    Manager_ID INT REFERENCES Manager(ID) ON DELETE CASCADE
+);

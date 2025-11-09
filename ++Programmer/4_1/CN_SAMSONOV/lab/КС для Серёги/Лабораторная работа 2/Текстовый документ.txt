@@ -1,0 +1,64 @@
+Current configuration : 995 bytes
+!
+version 12.4
+no service timestamps log datetime msec
+no service timestamps debug datetime msec
+no service password-encryption
+!
+hostname R2
+!
+no ip cef
+no ipv6 cef
+!
+16
+!
+spanning-tree mode pvst
+!
+interface FastEthernet0/0
+no ip address
+pppoe enable
+pppoe-client dial-pool-number 1
+ip nat outside
+duplex auto
+speed auto
+no cdp enable
+!
+interface FastEthernet0/1
+ip address 10.100.14.1 255.255.255.0
+ip nat inside
+duplex auto
+speed auto
+no cdp enable
+!
+interface Dialer1
+ppp authentication chap call
+dialer pool 1
+ip address negotiated
+mtu 1492
+encapsulation ppp
+ppp chap hostname one
+ppp chap password one
+!
+interface Vlan1
+no ip address
+shutdown
+!
+ip nat inside source list 10 interface FastEthernet0/0 overload
+ip classless
+ip route 192.168.1.0 255.255.255.0 192.168.0.1
+!
+ip flow-export version 9
+!
+access-list 10 permit 10.100.14.0 0.0.0.255
+!
+no cdp run
+!
+17
+!
+line con 0
+!
+line aux 0
+!
+line vty 0 4
+login
+end

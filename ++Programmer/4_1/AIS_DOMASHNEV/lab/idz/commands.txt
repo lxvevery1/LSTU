@@ -1,0 +1,6 @@
+product_name="cat /sys/devices/virtual/dmi/id/product_name"
+cpu_info="cat /proc/cpuinfo | grep 'model name' | head -n 1 | awk -F ': ' '{print $2}'"
+mem_info="cat /proc/meminfo | grep 'MemTotal' | awk '{print $(NF-1), $NF}'"
+os_name=
+"cat /etc/*-release | grep NAME | head -n 1 | awk -F '=' '{print $2}' | tr -d '"'"
+vendor="cat /sys/class/dmi/id/sys_vendor"

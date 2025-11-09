@@ -1,0 +1,69 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0" version="24.7.17">
+  <diagram name="Page-1" id="2hjyCBao6jp06NQkKiC3">
+    <mxGraphModel dx="959" dy="514" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="MEN7w-pZfLL2DkIXyNT3-9" value="Менеджер" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="166" y="165" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MEN7w-pZfLL2DkIXyNT3-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MEN7w-pZfLL2DkIXyNT3-8" target="MEN7w-pZfLL2DkIXyNT3-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MEN7w-pZfLL2DkIXyNT3-8" value="&lt;font color=&quot;#f5f5f5&quot;&gt;Менеджер&lt;/font&gt;" style="html=1;dashed=0;whiteSpace=wrap;fillColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="170" y="170" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MEN7w-pZfLL2DkIXyNT3-10" value="Менеджер" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="620" y="160" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MEN7w-pZfLL2DkIXyNT3-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MEN7w-pZfLL2DkIXyNT3-11" target="MEN7w-pZfLL2DkIXyNT3-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MEN7w-pZfLL2DkIXyNT3-11" value="&lt;font color=&quot;#f5f5f5&quot;&gt;Администратор&lt;/font&gt;" style="html=1;dashed=0;whiteSpace=wrap;fillColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="624" y="165" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MEN7w-pZfLL2DkIXyNT3-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="MEN7w-pZfLL2DkIXyNT3-12" target="MEN7w-pZfLL2DkIXyNT3-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MEN7w-pZfLL2DkIXyNT3-12" value="Менеджер" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="390.5" y="450" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MEN7w-pZfLL2DkIXyNT3-13" value="&lt;font color=&quot;#f5f5f5&quot;&gt;Журнал&lt;/font&gt;" style="html=1;dashed=0;whiteSpace=wrap;fillColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="394.5" y="455" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MEN7w-pZfLL2DkIXyNT3-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="MEN7w-pZfLL2DkIXyNT3-14" target="MEN7w-pZfLL2DkIXyNT3-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MEN7w-pZfLL2DkIXyNT3-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="MEN7w-pZfLL2DkIXyNT3-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="669.9999999999998" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MEN7w-pZfLL2DkIXyNT3-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MEN7w-pZfLL2DkIXyNT3-14" target="MEN7w-pZfLL2DkIXyNT3-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MEN7w-pZfLL2DkIXyNT3-14" value="&#xa;&#xa;1&#xa;Система по контролю и &#xa;хранению мед. оборудования" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=20;fillColor=#030303;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;swimlaneFillColor=#141414;fontColor=#EDEDED;strokeColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="265" y="280" width="355" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MEN7w-pZfLL2DkIXyNT3-18" value="Список наборов" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="100" y="260" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MEN7w-pZfLL2DkIXyNT3-19" value="Авторизация&lt;br&gt;Запрос на перемещение" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="280" y="145" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MEN7w-pZfLL2DkIXyNT3-24" value="Авторизация &lt;br&gt;Добавление / удаление наборов&lt;br&gt;Управление статусом наборов&lt;br&gt;Регистрация и удаление пользователей" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="473" y="90" width="260" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="MEN7w-pZfLL2DkIXyNT3-25" value="Список наборов&lt;br&gt;Отчеты (по клиникам, менеджерам)&lt;br&gt;Информация о перемещениях раборов" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="680" y="235" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MEN7w-pZfLL2DkIXyNT3-29" value="Информация о наборах&lt;br&gt;Факт перемещения" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="518" y="410" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MEN7w-pZfLL2DkIXyNT3-30" value="Записи о перемещениях мед. наборов&lt;br&gt;(дата, место до / после)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="134.5" y="410" width="260" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

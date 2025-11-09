@@ -1,0 +1,30 @@
+C:\Users\Гоша\Desktop\Ilya_lab2\Ilya_lab2\bin\Debug\Ilya_lab2.exe.config
+C:\Users\Гоша\Desktop\Ilya_lab2\Ilya_lab2\bin\Debug\Ilya_lab2.exe
+C:\Users\Гоша\Desktop\Ilya_lab2\Ilya_lab2\bin\Debug\Ilya_lab2.pdb
+C:\Users\Гоша\Desktop\Ilya_lab2\Ilya_lab2\obj\Debug\Ilya_lab2.csproj.AssemblyReference.cache
+C:\Users\Гоша\Desktop\Ilya_lab2\Ilya_lab2\obj\Debug\Ilya_lab2.Form1.resources
+C:\Users\Гоша\Desktop\Ilya_lab2\Ilya_lab2\obj\Debug\Ilya_lab2.Properties.Resources.resources
+C:\Users\Гоша\Desktop\Ilya_lab2\Ilya_lab2\obj\Debug\Ilya_lab2.csproj.GenerateResource.cache
+C:\Users\Гоша\Desktop\Ilya_lab2\Ilya_lab2\obj\Debug\Ilya_lab2.csproj.CoreCompileInputs.cache
+C:\Users\Гоша\Desktop\Ilya_lab2\Ilya_lab2\obj\Debug\Ilya_lab2.exe
+C:\Users\Гоша\Desktop\Ilya_lab2\Ilya_lab2\obj\Debug\Ilya_lab2.pdb
+C:\Users\Sergio\Desktop\мосяка 2\source\Ilya_lab2\bin\Debug\Ilya_lab2.exe.config
+C:\Users\Sergio\Desktop\мосяка 2\source\Ilya_lab2\bin\Debug\Ilya_lab2.exe
+C:\Users\Sergio\Desktop\мосяка 2\source\Ilya_lab2\bin\Debug\Ilya_lab2.pdb
+C:\Users\Sergio\Desktop\мосяка 2\source\Ilya_lab2\obj\Debug\Ilya_lab2.csproj.AssemblyReference.cache
+C:\Users\Sergio\Desktop\мосяка 2\source\Ilya_lab2\obj\Debug\Ilya_lab2.Form1.resources
+C:\Users\Sergio\Desktop\мосяка 2\source\Ilya_lab2\obj\Debug\Ilya_lab2.Properties.Resources.resources
+C:\Users\Sergio\Desktop\мосяка 2\source\Ilya_lab2\obj\Debug\Ilya_lab2.csproj.GenerateResource.cache
+C:\Users\Sergio\Desktop\мосяка 2\source\Ilya_lab2\obj\Debug\Ilya_lab2.csproj.CoreCompileInputs.cache
+C:\Users\Sergio\Desktop\мосяка 2\source\Ilya_lab2\obj\Debug\Ilya_lab2.exe
+C:\Users\Sergio\Desktop\мосяка 2\source\Ilya_lab2\obj\Debug\Ilya_lab2.pdb
+C:\Users\Sergio\Desktop\мосяка\мосяка_2\source\Ilya_lab2\bin\Debug\Ilya_lab2.exe.config
+C:\Users\Sergio\Desktop\мосяка\мосяка_2\source\Ilya_lab2\bin\Debug\Ilya_lab2.exe
+C:\Users\Sergio\Desktop\мосяка\мосяка_2\source\Ilya_lab2\bin\Debug\Ilya_lab2.pdb
+C:\Users\Sergio\Desktop\мосяка\мосяка_2\source\Ilya_lab2\obj\Debug\Ilya_lab2.csproj.AssemblyReference.cache
+C:\Users\Sergio\Desktop\мосяка\мосяка_2\source\Ilya_lab2\obj\Debug\Ilya_lab2.Form1.resources
+C:\Users\Sergio\Desktop\мосяка\мосяка_2\source\Ilya_lab2\obj\Debug\Ilya_lab2.Properties.Resources.resources
+C:\Users\Sergio\Desktop\мосяка\мосяка_2\source\Ilya_lab2\obj\Debug\Ilya_lab2.csproj.GenerateResource.cache
+C:\Users\Sergio\Desktop\мосяка\мосяка_2\source\Ilya_lab2\obj\Debug\Ilya_lab2.csproj.CoreCompileInputs.cache
+C:\Users\Sergio\Desktop\мосяка\мосяка_2\source\Ilya_lab2\obj\Debug\Ilya_lab2.exe
+C:\Users\Sergio\Desktop\мосяка\мосяка_2\source\Ilya_lab2\obj\Debug\Ilya_lab2.pdb

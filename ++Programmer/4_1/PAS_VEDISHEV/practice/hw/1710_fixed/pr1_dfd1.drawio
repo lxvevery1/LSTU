@@ -1,0 +1,73 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0" version="24.7.17">
+  <diagram name="Page-1" id="2hjyCBao6jp06NQkKiC3">
+    <mxGraphModel dx="794" dy="426" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="MEN7w-pZfLL2DkIXyNT3-12" value="Менеджер" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="390.5" y="450" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MEN7w-pZfLL2DkIXyNT3-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="MEN7w-pZfLL2DkIXyNT3-13" target="MEN7w-pZfLL2DkIXyNT3-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MEN7w-pZfLL2DkIXyNT3-38" value="Отчет о мед. наборах" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MEN7w-pZfLL2DkIXyNT3-37">
+          <mxGeometry x="0.4123" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MEN7w-pZfLL2DkIXyNT3-13" value="&lt;font&gt;Система контроля мед. оборудования&lt;br&gt;&lt;/font&gt;" style="html=1;dashed=0;whiteSpace=wrap;fillColor=#FFFFFF;fontColor=#0F0F0F;" vertex="1" parent="1">
+          <mxGeometry x="394.5" y="455" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MEN7w-pZfLL2DkIXyNT3-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MEN7w-pZfLL2DkIXyNT3-14" target="MEN7w-pZfLL2DkIXyNT3-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="620" y="290" />
+              <mxPoint x="650" y="290" />
+              <mxPoint x="650" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MEN7w-pZfLL2DkIXyNT3-36" value="Менеджеры и / или клиники" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MEN7w-pZfLL2DkIXyNT3-27">
+          <mxGeometry x="-0.0817" y="-1" relative="1" as="geometry">
+            <mxPoint y="-51" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MEN7w-pZfLL2DkIXyNT3-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MEN7w-pZfLL2DkIXyNT3-14" target="MEN7w-pZfLL2DkIXyNT3-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MEN7w-pZfLL2DkIXyNT3-42" value="Перемещение&lt;br&gt; в клинику" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MEN7w-pZfLL2DkIXyNT3-41">
+          <mxGeometry x="-0.2704" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MEN7w-pZfLL2DkIXyNT3-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="MEN7w-pZfLL2DkIXyNT3-14" target="MEN7w-pZfLL2DkIXyNT3-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MEN7w-pZfLL2DkIXyNT3-46" value="Ответственный менеджер" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MEN7w-pZfLL2DkIXyNT3-45">
+          <mxGeometry x="-0.0409" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MEN7w-pZfLL2DkIXyNT3-14" value="&#xa;&#xa;1&#xa;&#xa;Контроль и хранение мед. оборудования" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=20;fillColor=#FFFFFF;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;swimlaneFillColor=#F2F2F2;fontColor=#000000;strokeColor=#080808;" vertex="1" parent="1">
+          <mxGeometry x="265" y="240" width="355" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="MEN7w-pZfLL2DkIXyNT3-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MEN7w-pZfLL2DkIXyNT3-40" target="MEN7w-pZfLL2DkIXyNT3-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="85" />
+              <mxPoint x="240" y="275" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MEN7w-pZfLL2DkIXyNT3-44" value="Данные мед. набора" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MEN7w-pZfLL2DkIXyNT3-43">
+          <mxGeometry x="0.1114" y="-1" relative="1" as="geometry">
+            <mxPoint y="23" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MEN7w-pZfLL2DkIXyNT3-40" value="&amp;nbsp;D&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Мед. наборы" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.dataStoreID;align=left;spacingLeft=3;points=[[0,0],[0.5,0],[1,0],[0,0.5],[1,0.5],[0,1],[0.5,1],[1,1]];" vertex="1" parent="1">
+          <mxGeometry x="373" y="70" width="139" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

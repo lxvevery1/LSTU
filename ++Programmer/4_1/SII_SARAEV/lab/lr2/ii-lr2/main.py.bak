@@ -1,0 +1,217 @@
+import subprocess
+from rich.columns import Columns
+from rich.console import Console
+from rich.panel import Panel
+from rich.prompt import Prompt
+from rich.table import Table
+
+
+def load_rules(file_path):
+    rules = []
+    with open(file_path, "r", encoding="utf-8") as file:
+        for line in file:
+            if line.strip():
+                condition, result = line.strip().split(" ТО ")
+                conditions = condition.replace("ЕСЛИ ", "").split(" И ")
+                result_actions = result.split(" И ")
+                rules.append((conditions, result_actions))
+    return rules
+
+
+def load_start_values(file_path):
+    facts = {}
+    with open(file_path, "r", encoding="utf-8") as file:
+        for line in file:
+            key, value = line.strip().split("=")
+            facts[key] = value
+    return facts
+
+
+def check_conditions(conditions, facts):
+    for condition in conditions:
+        obj, val = condition.split("=")
+        print(
+            f"[check_conditions] Check if {facts.get(obj, "").lower()} != {val.lower()}"
+        )
+        if facts.get(obj, "").lower() != val.lower():
+            print(f"[check_conditions] {facts.get(obj, "").lower()} != {val.lower()}")
+            print(f"[check_conditions] Returning FALSE")
+            print(
+                f"[check_conditions] Теперь надо найти такое правило, которое бы выполняло {obj} = {val}"
+            )
+            return False
+    print(f"[check_conditions] Returning TRUE")
+    return True
+
+
+def apply_conditions(conditions, facts):
+    for condition in conditions:
+        obj, val = condition.split("=")
+        facts[obj] = val
+
+
+# Реверсивный вывод
+def reverse_inference_engine(goal_action, facts, rules):
+    applied_rules = []
+    applicable = False
+    reverse_count = 0
+    iteration_logs = []
+
+    def find_applicable_rule(goal_action, facts):
+        nonlocal reverse_count
+        reverse_count += 1
+        for conditions, result_actions in rules:
+            for action in result_actions:
+                print(
+                    f"[find_applicable_rule][{reverse_count}] Check if {action} == {goal_action}"
+                )
+                if action == goal_action:
+                    print(f"[find_applicable_rule] RIGHT --> {action} == {goal_action}")
+                    if check_conditions(conditions, facts):
+                        return conditions, result_actions
+        return None, None
+
+    print(f"Goal = {goal_action}")
+    current_goal = goal_action
+    while current_goal:
+        conditions, result_actions = find_applicable_rule(current_goal, facts)
+        if conditions is None:
+            print(f"Conditions not found for goal {current_goal}")
+            break  # Нет подходящего правила
+
+        # Логирование итерации
+        iteration_logs.append(
+            f"Iteration {reverse_count}: Goal = {current_goal}, Conditions = {conditions}, Result = {result_actions}"
+        )
+
+        # Применяем условия
+        apply_conditions(conditions, facts)
+        applied_rules.append(f"{conditions} -> {result_actions}")
+
+        # Обновляем цель
+        applicable = True
+        current_goal = None  # Предположим, что цель достигнута
+
+        for action in result_actions:
+            if action != goal_action:  # Найдем следующую цель
+                current_goal = action
+                break
+
+    return facts, applied_rules, applicable, reverse_count, iteration_logs
+
+
+def display_facts(console, facts):
+    table = Table(title="Facts")
+    table.add_column("Object", justify="left")
+    table.add_column("Value", justify="left")
+    for obj, val in facts.items():
+        table.add_row(obj, val)
+    return table
+
+
+def display_applied_rules(console, applied_rules):
+    table = Table(title="Applied Rules")
+    table.add_column("Rule", justify="center")
+    for rule in applied_rules:
+        table.add_row(rule)
+    return table
+
+
+def display_iteration_logs(console, iteration_logs):
+    table = Table(title="Iteration Logs")
+    table.add_column("Log Entry", justify="left")
+    for log in iteration_logs:
+        table.add_row(log)
+    return table
+
+
+def display_help(console):
+    help_table = Table(title="Help Instructions")
+    help_table.add_column("Action", justify="left")
+    help_table.add_column("Description", justify="left")
+    help_table.add_row("1", "Run Inference")
+    help_table.add_row("2", "Add Fact")
+    help_table.add_row("3", "Edit Fact")
+    help_table.add_row("4", "Remove Fact")
+    help_table.add_row("5", "Clear Facts")
+    help_table.add_row("6", "Open Rules Editor")
+    help_table.add_row("7", "Exit")
+    return help_table
+
+
+def clear_facts(facts):
+    facts.clear()
+
+
+def run():
+    console = Console()
+    rules_file = "bz.txt"
+    result_action = "принтер=включен"
+    rules = load_rules(rules_file)
+    facts = load_start_values("start_val.txt")
+
+    while True:
+        console.clear()
+        console.print(Panel("Expert System TUI"), justify="center")
+
+        facts_table = display_facts(console, facts)
+        help_table = display_help(console)
+
+        columns = Columns([facts_table, help_table])
+        console.print(columns)
+
+        action = Prompt.ask(
+            "Choose an action ",
+            choices=["1", "2", "3", "4", "5", "6", "7"],
+        )
+
+        if action == "1":
+            facts, applied_rules, applicable, funcs_count, iteration_logs = (
+                reverse_inference_engine(result_action, facts, rules)
+            )
+            if not applicable:
+                console.print(
+                    "No applicable rules. Please add new facts.", style="bold red"
+                )
+            input("Press Enter to continue...")
+        #
+        # elif action == "2":
+        #     obj = Prompt.ask("Enter fact name")
+        #     val = Prompt.ask("Enter fact value")
+        #     if obj and val:
+        #         facts[obj] = val
+        #     else:
+        #         console.print(
+        #             "Error: Both object and value must be provided.", style="bold red"
+        #         )
+        #
+        # elif action == "3":
+        #     obj = Prompt.ask("Enter fact name to edit")
+        #     if obj in facts:
+        #         val = Prompt.ask("Enter new fact value")
+        #         facts[obj] = val
+        #     else:
+        #         console.print("Error: Fact not found.", style="bold red")
+        #
+        # elif action == "4":
+        #     obj = Prompt.ask("Enter fact name to remove")
+        #     if obj in facts:
+        #         del facts[obj]
+        #     else:
+        #         console.print("Error: Fact not found.", style="bold red")
+        #
+        # elif action == "5":
+        #     clear_facts(facts)
+        #
+        # elif action == "6":
+        #     try:
+        #         subprocess.call(["kitty -e nvim bz.txt"], shell=True)
+        #     except FileNotFoundError:
+        #         console.print("Error: rules.py file not found.", style="bold red")
+        #
+        # elif action == "7":
+        #     break
+
+
+if __name__ == "__main__":
+    run()

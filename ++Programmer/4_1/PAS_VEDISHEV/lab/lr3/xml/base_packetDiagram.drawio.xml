@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0" version="24.8.6">
+  <diagram name="Page-1" id="2hjyCBao6jp06NQkKiC3">
+    <mxGraphModel dx="933" dy="768" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xq30c-s1tJePtLoKyHT--1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="155.5" width="230" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="xq30c-s1tJePtLoKyHT--2" value="GridItem" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="185.5" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xq30c-s1tJePtLoKyHT--3" value="EditableItem" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="29" y="222.5" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xq30c-s1tJePtLoKyHT--5" value="TabItemModel" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="29" y="260.5" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xq30c-s1tJePtLoKyHT--6" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="89.5" width="230" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="xq30c-s1tJePtLoKyHT--10" value="ContextMenuMT" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370.5" y="157" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xq30c-s1tJePtLoKyHT--11" value="ContextMenuTabControlMT" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="369.5" y="194" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xq30c-s1tJePtLoKyHT--12" value="ContextMenuTableMT" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="369.5" y="232" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xq30c-s1tJePtLoKyHT--13" value="ViewModel" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="430.5" y="93.5" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xq30c-s1tJePtLoKyHT--14" value="ContextMenuItem" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="298.5" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xq30c-s1tJePtLoKyHT--15" value="ConfirmationDialog" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="369.5" y="267.5" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xq30c-s1tJePtLoKyHT--16" value="TextBoxDialog" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="369.5" y="305" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xq30c-s1tJePtLoKyHT--17" value="EditWindow" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="369.5" y="343.5" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xq30c-s1tJePtLoKyHT--18" value="DataGridMT" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="368.5" y="381.5" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xq30c-s1tJePtLoKyHT--19" value="GridItem" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="368.5" y="420.5" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xq30c-s1tJePtLoKyHT--20" value="ListBoxMT" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="368.5" y="459.5" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xq30c-s1tJePtLoKyHT--21" value="ToolRequest" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="411" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xq30c-s1tJePtLoKyHT--22" value="Model" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="105" y="154.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xq30c-s1tJePtLoKyHT--23" value="Manager" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="336.75" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xq30c-s1tJePtLoKyHT--24" value="Clinic" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="373.75" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xq30c-s1tJePtLoKyHT--25" value="TabItemMT" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="368.5" y="497.5" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xq30c-s1tJePtLoKyHT--26" value="TabControlMT" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="368.5" y="536.5" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xq30c-s1tJePtLoKyHT--27" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="85.75" width="230" height="497.5" as="geometry" />
+        </mxCell>
+        <mxCell id="xq30c-s1tJePtLoKyHT--28" value="DataGridMT" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="740.5" y="154.25" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xq30c-s1tJePtLoKyHT--29" value="ConfirmationDialog" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="739.5" y="191.25" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xq30c-s1tJePtLoKyHT--30" value="TextBoxDialog" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="739.5" y="229.25" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xq30c-s1tJePtLoKyHT--31" value="View" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="820.5" y="87.75" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xq30c-s1tJePtLoKyHT--32" value="EditWindow" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="739.5" y="264.75" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xq30c-s1tJePtLoKyHT--33" value="ListBoxMT" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="739.5" y="302.25" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xq30c-s1tJePtLoKyHT--34" value="EditWindow" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="739.5" y="340.75" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xq30c-s1tJePtLoKyHT--35" value="DataGridMT" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="738.5" y="378.75" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xq30c-s1tJePtLoKyHT--36" value="GridItem" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="738.5" y="417.75" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xq30c-s1tJePtLoKyHT--37" value="ListBoxMT" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="738.5" y="456.75" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xq30c-s1tJePtLoKyHT--38" value="TabItemMT" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="738.5" y="494.75" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xq30c-s1tJePtLoKyHT--39" value="TabControlMT" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="738.5" y="533.75" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xq30c-s1tJePtLoKyHT--40" value="Main" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370.5" y="122" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xq30c-s1tJePtLoKyHT--41" value="MainWindow" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="740.5" y="119.25" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xq30c-s1tJePtLoKyHT--47" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="xq30c-s1tJePtLoKyHT--1" target="xq30c-s1tJePtLoKyHT--6">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="250" y="335.5" as="sourcePoint" />
+            <mxPoint x="410" y="335.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xq30c-s1tJePtLoKyHT--50" value="" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="xq30c-s1tJePtLoKyHT--6" target="xq30c-s1tJePtLoKyHT--27">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="600" y="330" as="sourcePoint" />
+            <mxPoint x="760" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

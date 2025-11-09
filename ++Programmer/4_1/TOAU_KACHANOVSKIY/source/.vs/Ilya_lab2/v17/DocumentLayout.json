@@ -1,0 +1,121 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Sergio\\Desktop\\\u043C\u043E\u0441\u044F\u043A\u0430 2\\source\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8824D5EC-BC80-4000-BFD8-F462CFCEED62}|Ilya_lab2\\Ilya_lab2.csproj|C:\\Users\\Sergio\\Desktop\\\u043C\u043E\u0441\u044F\u043A\u0430 2\\source\\ilya_lab2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8824D5EC-BC80-4000-BFD8-F462CFCEED62}|Ilya_lab2\\Ilya_lab2.csproj|solutionrelative:ilya_lab2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8824D5EC-BC80-4000-BFD8-F462CFCEED62}|Ilya_lab2\\Ilya_lab2.csproj|C:\\Users\\Sergio\\Desktop\\\u043C\u043E\u0441\u044F\u043A\u0430 2\\source\\ilya_lab2\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8824D5EC-BC80-4000-BFD8-F462CFCEED62}|Ilya_lab2\\Ilya_lab2.csproj|solutionrelative:ilya_lab2\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8824D5EC-BC80-4000-BFD8-F462CFCEED62}|Ilya_lab2\\Ilya_lab2.csproj|C:\\Users\\Sergio\\Desktop\\\u043C\u043E\u0441\u044F\u043A\u0430 2\\source\\ilya_lab2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8824D5EC-BC80-4000-BFD8-F462CFCEED62}|Ilya_lab2\\Ilya_lab2.csproj|solutionrelative:ilya_lab2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8824D5EC-BC80-4000-BFD8-F462CFCEED62}|Ilya_lab2\\Ilya_lab2.csproj|C:\\Users\\Sergio\\Desktop\\\u043C\u043E\u0441\u044F\u043A\u0430 2\\source\\ilya_lab2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8824D5EC-BC80-4000-BFD8-F462CFCEED62}|Ilya_lab2\\Ilya_lab2.csproj|solutionrelative:ilya_lab2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8824D5EC-BC80-4000-BFD8-F462CFCEED62}|Ilya_lab2\\Ilya_lab2.csproj|C:\\Users\\Sergio\\Desktop\\\u043C\u043E\u0441\u044F\u043A\u0430 2\\source\\ilya_lab2\\properties\\settings.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8824D5EC-BC80-4000-BFD8-F462CFCEED62}|Ilya_lab2\\Ilya_lab2.csproj|solutionrelative:ilya_lab2\\properties\\settings.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8824D5EC-BC80-4000-BFD8-F462CFCEED62}|Ilya_lab2\\Ilya_lab2.csproj|C:\\Users\\Sergio\\Desktop\\\u043C\u043E\u0441\u044F\u043A\u0430 2\\source\\ilya_lab2\\properties\\resources.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8824D5EC-BC80-4000-BFD8-F462CFCEED62}|Ilya_lab2\\Ilya_lab2.csproj|solutionrelative:ilya_lab2\\properties\\resources.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Resources.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Sergio\\Desktop\\\u043C\u043E\u0441\u044F\u043A\u0430 2\\source\\Ilya_lab2\\Properties\\Resources.Designer.cs",
+              "RelativeDocumentMoniker": "Ilya_lab2\\Properties\\Resources.Designer.cs",
+              "ToolTip": "C:\\Users\\Sergio\\Desktop\\\u043C\u043E\u0441\u044F\u043A\u0430 2\\source\\Ilya_lab2\\Properties\\Resources.Designer.cs",
+              "RelativeToolTip": "Ilya_lab2\\Properties\\Resources.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T06:25:40.284Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Settings.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Sergio\\Desktop\\\u043C\u043E\u0441\u044F\u043A\u0430 2\\source\\Ilya_lab2\\Properties\\Settings.Designer.cs",
+              "RelativeDocumentMoniker": "Ilya_lab2\\Properties\\Settings.Designer.cs",
+              "ToolTip": "C:\\Users\\Sergio\\Desktop\\\u043C\u043E\u0441\u044F\u043A\u0430 2\\source\\Ilya_lab2\\Properties\\Settings.Designer.cs",
+              "RelativeToolTip": "Ilya_lab2\\Properties\\Settings.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T06:25:40.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Sergio\\Desktop\\\u043C\u043E\u0441\u044F\u043A\u0430 2\\source\\Ilya_lab2\\Program.cs",
+              "RelativeDocumentMoniker": "Ilya_lab2\\Program.cs",
+              "ToolTip": "C:\\Users\\Sergio\\Desktop\\\u043C\u043E\u0441\u044F\u043A\u0430 2\\source\\Ilya_lab2\\Program.cs",
+              "RelativeToolTip": "Ilya_lab2\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T06:25:40.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Sergio\\Desktop\\\u043C\u043E\u0441\u044F\u043A\u0430 2\\source\\Ilya_lab2\\Form1.cs",
+              "RelativeDocumentMoniker": "Ilya_lab2\\Form1.cs",
+              "ToolTip": "C:\\Users\\Sergio\\Desktop\\\u043C\u043E\u0441\u044F\u043A\u0430 2\\source\\Ilya_lab2\\Form1.cs",
+              "RelativeToolTip": "Ilya_lab2\\Form1.cs",
+              "ViewState": "AgIAAJQBAAAAAAAAAAAwwKIBAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T06:25:40.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Sergio\\Desktop\\\u043C\u043E\u0441\u044F\u043A\u0430 2\\source\\Ilya_lab2\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "Ilya_lab2\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\Sergio\\Desktop\\\u043C\u043E\u0441\u044F\u043A\u0430 2\\source\\Ilya_lab2\\Form1.Designer.cs",
+              "RelativeToolTip": "Ilya_lab2\\Form1.Designer.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAjwBYDAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T06:25:40.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\Sergio\\Desktop\\\u043C\u043E\u0441\u044F\u043A\u0430 2\\source\\Ilya_lab2\\Form1.cs",
+              "RelativeDocumentMoniker": "Ilya_lab2\\Form1.cs",
+              "ToolTip": "C:\\Users\\Sergio\\Desktop\\\u043C\u043E\u0441\u044F\u043A\u0430 2\\source\\Ilya_lab2\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "Ilya_lab2\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T06:25:40.3Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

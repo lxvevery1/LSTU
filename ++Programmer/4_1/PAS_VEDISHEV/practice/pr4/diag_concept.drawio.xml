@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0" version="25.0.3">
+  <diagram name="Page-1" id="KXgr8JZLsjAg4bRbVa3o">
+    <mxGraphModel dx="851" dy="394" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9F4NZCvJy-lWDAxPRevN-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9F4NZCvJy-lWDAxPRevN-1" target="9F4NZCvJy-lWDAxPRevN-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9F4NZCvJy-lWDAxPRevN-1" value="Система учета и заказов медицинских наборов" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="353" y="200" width="145" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9F4NZCvJy-lWDAxPRevN-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9F4NZCvJy-lWDAxPRevN-2" target="9F4NZCvJy-lWDAxPRevN-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9F4NZCvJy-lWDAxPRevN-2" value="&lt;div&gt;ФЗ-149 &quot;Об информации,&amp;nbsp;&lt;/div&gt;&lt;div&gt;информационных технологиях&lt;/div&gt;&lt;div&gt;и о защите информации&quot;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="315.5" y="90" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9F4NZCvJy-lWDAxPRevN-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="9F4NZCvJy-lWDAxPRevN-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="353" y="229" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9F4NZCvJy-lWDAxPRevN-5" value="Данные о мед. наборе" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="130" y="214" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9F4NZCvJy-lWDAxPRevN-11" value="&lt;div&gt;Отправленный&amp;nbsp;&lt;/div&gt;&lt;div&gt;в клинику мед. набор&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="550" y="210" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9F4NZCvJy-lWDAxPRevN-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9F4NZCvJy-lWDAxPRevN-13" target="9F4NZCvJy-lWDAxPRevN-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9F4NZCvJy-lWDAxPRevN-13" value="Клиент, сервер, сотрудник, менеджер" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="300.5" y="300" width="250" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

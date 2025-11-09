@@ -1,0 +1,79 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0" version="24.8.3">
+  <diagram name="Page-1" id="nHLxEuWzeHlFIQyoqDwA">
+    <mxGraphModel dx="1968" dy="484" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="i1OqCgZycMUGJ32XwxBN-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="i1OqCgZycMUGJ32XwxBN-1" target="i1OqCgZycMUGJ32XwxBN-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i1OqCgZycMUGJ32XwxBN-1" value="Авторизация" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="377" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i1OqCgZycMUGJ32XwxBN-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="i1OqCgZycMUGJ32XwxBN-2" target="i1OqCgZycMUGJ32XwxBN-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i1OqCgZycMUGJ32XwxBN-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="i1OqCgZycMUGJ32XwxBN-2" target="i1OqCgZycMUGJ32XwxBN-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i1OqCgZycMUGJ32XwxBN-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="i1OqCgZycMUGJ32XwxBN-2" target="i1OqCgZycMUGJ32XwxBN-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i1OqCgZycMUGJ32XwxBN-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="i1OqCgZycMUGJ32XwxBN-2" target="i1OqCgZycMUGJ32XwxBN-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i1OqCgZycMUGJ32XwxBN-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="i1OqCgZycMUGJ32XwxBN-2" target="i1OqCgZycMUGJ32XwxBN-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i1OqCgZycMUGJ32XwxBN-2" value="Список инструментов" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="240" width="155" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i1OqCgZycMUGJ32XwxBN-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="i1OqCgZycMUGJ32XwxBN-7" target="i1OqCgZycMUGJ32XwxBN-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i1OqCgZycMUGJ32XwxBN-7" value="Список объектов хранения" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="340" width="155" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i1OqCgZycMUGJ32XwxBN-10" value="Список уведомлений&lt;br&gt;(запрос на набор) (настройки)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="340" width="155" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i1OqCgZycMUGJ32XwxBN-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="i1OqCgZycMUGJ32XwxBN-13" target="i1OqCgZycMUGJ32XwxBN-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i1OqCgZycMUGJ32XwxBN-13" value="Список сотрудников" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="340" width="155" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i1OqCgZycMUGJ32XwxBN-15" value="Журнал перемещений" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="340" width="155" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i1OqCgZycMUGJ32XwxBN-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="i1OqCgZycMUGJ32XwxBN-17" target="i1OqCgZycMUGJ32XwxBN-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i1OqCgZycMUGJ32XwxBN-17" value="Просмотр инструмента&lt;br&gt;(быстрое редактирование)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="352" y="340" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i1OqCgZycMUGJ32XwxBN-19" value="Подробное редактирование инструмента" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="352" y="450" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i1OqCgZycMUGJ32XwxBN-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="i1OqCgZycMUGJ32XwxBN-21" target="i1OqCgZycMUGJ32XwxBN-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i1OqCgZycMUGJ32XwxBN-21" value="Просмотр конкретного сотрудника" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="152.5" y="450" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i1OqCgZycMUGJ32XwxBN-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="i1OqCgZycMUGJ32XwxBN-22" target="i1OqCgZycMUGJ32XwxBN-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i1OqCgZycMUGJ32XwxBN-22" value="Просмотр конкретного объекта хранения" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="572.5" y="450" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i1OqCgZycMUGJ32XwxBN-25" value="Окно редактирования (или создания) нового сотрудника" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="152.5" y="550" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i1OqCgZycMUGJ32XwxBN-28" value="Редактирование объекта хранения (локации)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="572.5" y="550" width="170" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 110">
+  <defs>
+    <filter x="-75.0%" y="-15.0%" width="250.0%" height="130.0%" filterUnits="objectBoundingBox" id="colapse-shadow">
+      <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1">
+      </feOffset>
+      <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1">
+      </feGaussianBlur>
+      <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.3 0" type="matrix" in="shadowBlurOuter1">
+      </feColorMatrix>
+    </filter>
+  </defs>
+  <path d="M13.8,18.26A12.22,12.22,0,0,0,8,28.5v53a12.22,12.22,0,0,0,5.8,10.24l12.4,8A12.22,12.22,0,0,1,32,110V0a12.22,12.22,0,0,1-5.8,10.24Z" fill="#000f33" filter="url(#colapse-shadow)"/>
+  <path d="M13.8,18.26A12.22,12.22,0,0,0,8,28.5v53a12.22,12.22,0,0,0,5.8,10.24l12.4,8A12.22,12.22,0,0,1,32,110V0a12.22,12.22,0,0,1-5.8,10.24Z" fill="#fff"/>
+  <path d="M20,53a2,2,0,1,1-2,2A2,2,0,0,1,20,53Zm0,6a2,2,0,1,1-2,2A2,2,0,0,1,20,59Zm0-8a2,2,0,1,1,2-2A2,2,0,0,1,20,51Z" fill="#696b74"/>
+</svg>

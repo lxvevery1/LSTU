@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0" version="24.8.6">
+  <diagram name="Page-1" id="2hjyCBao6jp06NQkKiC3">
+    <mxGraphModel dx="971" dy="528" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="GG-LbWV7_seiQ1ucUr1w-16" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="160" width="480" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="GG-LbWV7_seiQ1ucUr1w-17" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="245" y="185" width="360" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="GG-LbWV7_seiQ1ucUr1w-18" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="245" y="370" width="360" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="GG-LbWV7_seiQ1ucUr1w-19" value="Пользователь авторизован" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="232" y="157" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GG-LbWV7_seiQ1ucUr1w-21" value="Do" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="245" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GG-LbWV7_seiQ1ucUr1w-22" value="Else" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="401" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GG-LbWV7_seiQ1ucUr1w-23" value="Перенаправление на форму авторизации" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="285" y="401" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GG-LbWV7_seiQ1ucUr1w-24" value="Показ окна с информацией о созданном инструменте" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="314" y="230" width="266" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="GG-LbWV7_seiQ1ucUr1w-25" value="Показ окна с информацией об ошибке" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="314" y="280" width="266" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="GG-LbWV7_seiQ1ucUr1w-26" value="Данные валидны" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="268" y="200" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GG-LbWV7_seiQ1ucUr1w-27" value="Do" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="254" y="230" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GG-LbWV7_seiQ1ucUr1w-28" value="Else" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="254" y="280" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

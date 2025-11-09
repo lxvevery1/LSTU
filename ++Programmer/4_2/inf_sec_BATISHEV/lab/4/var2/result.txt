@@ -1,0 +1,14 @@
+[INFO] Generating RSA key pair...
+[INFO] Private key saved to private_key.pem
+[INFO] Public key saved to public_key.pem
+[INFO] Signing file: example.txt
+[INFO] Hash calculated successfully
+[DEBUG] File hash (SHA-256): fe29e26242ca447845b33b8c63ee8a0edc37612ae36c336c8338615df09f4e46
+[DEBUG] Generated signature: 429e9eaab6584bac7c3ebea1827bb4b852016346302422190784b32868253394c89905a79eaadf16e8d93ef81224962858f69f90f73717a92aec44802c0f1d4e2a2652ab1ac340775429b50b4c97d127a93388006c05b23a4e75343234aefa32ab6d68d18ad7f9b4e399635a690d419bd26a15f74a8dca6bbd221177a4ce8748064f95cab06062515e32ac2cb24eedd9a6a0c78b64dbdc3e2968f7b0b06c99c17870eb7b1328fc9e193384bfe56574da195ef8084df84cc936a1d2e8068407bba30374f825aeb653e6f34c560b1353dbb764043b232993cf1cfdf5b9b7a805a6717a4854c1462617f280294f190a38080438ab28e802e48f1d4e92ae4c309b13
+[INFO] File signed successfully
+Signature generated successfully
+[INFO] Verifying signature for file: example.txt
+[INFO] Hash calculated successfully for verification
+[DEBUG] Verification hash (SHA-256): fe29e26242ca447845b33b8c63ee8a0edc37612ae36c336c8338615df09f4e46
+[SUCCESS] Signature is valid!
+Signature is valid
